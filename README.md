@@ -50,7 +50,7 @@ The following further dives into a deeper understanding of the data.
 
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Based on the summary output (Pr(>|t|)), there are two variables/coefficients that provide a non-random amount of variance to the mpg values:
-1. vehicle_length, p-value = 2.60e-12
+1. vehicle_length, p-value = 2.60ex10<sup>-12</sup>
 2. ground_clearance, p-value = 5.21e-08
 
 Therefore, vehicle_length and ground_clearance have a significant impact on the mpg values.
