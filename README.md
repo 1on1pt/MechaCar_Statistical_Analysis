@@ -126,6 +126,7 @@ Metrics to test would include obtaining the **5-Star Safety Ratings** on MechaCa
 
 #### Hypothesis Testing
 Null Hypothesis: H<sub>0</sub> = There is no difference in NHTSA 5-Star Safety Rating between MechaCar and it's competitors
+
 Alternate Hypothesis: H<sub>a</sub> = There is a difference in NHTSA 5-Star Safety Rating between MechaCar and it's competitors
 
 #### Statistical Test to Test the Hypothesis
