@@ -40,7 +40,7 @@ The mech_car_mpg.csv dataset was used to to create linear regression to predict 
 The *mecha_car_mpg* dataframe was created from the *mech_car_mpg.csv* dataset.  Here is an image of head(mecha_car_mpg):
 ![mecha_car_mpg_df_head](https://user-images.githubusercontent.com/94148420/161386435-e3c5d52d-5d11-4c2e-87c7-82142e6dbc33.PNG)
 
-Next, performing a linear regression using lm() was completed.
+Next, performing a linear regression using the lm() function was completed.
 ![lm_mpg](https://user-images.githubusercontent.com/94148420/161386692-3d0d8b0b-5bcd-4e76-9b93-c0f235b4fb87.PNG)
 
 The summary() function is applied to determine the p-value and r-squared value for the linear regression model.
