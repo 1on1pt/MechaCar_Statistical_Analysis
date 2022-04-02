@@ -92,6 +92,27 @@ But Lot 3 **far exceeds** the design specification with **Var_PSI = 170.2861224*
 
 ![t_test_all_lots](https://user-images.githubusercontent.com/94148420/161400926-1b41e0cd-c9bc-48e5-95d5-6c2a126c72af.PNG)
 
+The p-value for the **t-test for all manufacturing lots = 0.06028**.  This is **higher** than the standard 0.05 level and therefore there is not enough evidence to reject the null hypothesis and thus indicates that there is not a difference from the population mean of 1500.
+
+#### T-Test Results for Lot 1
+
+![t_test_lot_1](https://user-images.githubusercontent.com/94148420/161401327-4b3eee87-66a2-437f-93bd-c53d08f36253.PNG)
+
+The p-value for the **t-test for Lot 1 = 1**.  This is **higher** than the standard 0.05 level and therefore there is not enough evidence to reject the null hypothesis and thus indicates that there is not a difference from the population mean of 1500.  The mean of Lot 1 actually is the same as the population mean of 1500.
+
+#### T-Test Results for Lot 2
+
+![t_test_lot_2](https://user-images.githubusercontent.com/94148420/161401343-393a742e-8c3b-41bf-888a-18f9e18afd41.PNG)
+
+The p-value for the **t-test for Lot 2 = 0.6072**.  This is **higher** than the standard 0.05 level and therefore there is not enough evidence to reject the null hypothesis and thus indicates that there is not a difference from the population mean of 1500.
+
+#### T-Test Results for Lot 3
+
+![t_test_lot_3](https://user-images.githubusercontent.com/94148420/161401360-6b403092-b0f9-4389-807b-c8d2e9cf4f4a.PNG)
+
+The p-value for the **t-test for Lot 3 = 0.04168**.  This is **lower** than the standard 0.05 level and therefore there is enough evidence to reject the null hypothesis and thus indicates that there is a difference from the population mean of 1500. Again, further analysis of Lot 3 is warranted and this lot may need to be discarded and not used for manufacturing.
+
+### Study Design: MechaCar vs Competition
 
 
 
