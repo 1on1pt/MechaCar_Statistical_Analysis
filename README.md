@@ -112,10 +112,23 @@ The p-value for the **t-test for Lot 2 = 0.6072**.  This is **higher** than the 
 
 The p-value for the **t-test for Lot 3 = 0.04168**.  This is **lower** than the standard 0.05 level and therefore there is enough evidence to reject the null hypothesis and thus indicates that there is a difference from the population mean of 1500. Again, further analysis of Lot 3 is warranted and this lot may need to be discarded and not used for manufacturing.
 
-### Study Design: MechaCar vs Competition
+### Study Design: MechaCar vs. Competition
+
+The automobile industry is highly competitive.  According to Statistica, **SAFETY** is the number one factor when buying a car, closely followed by fuel efficiency.
+
+![important _factors_when_buying_a_car](https://user-images.githubusercontent.com/94148420/161402165-a56d9b24-c196-45a6-bb3b-2ee6622930ad.PNG)
+
+The US Department of Transportation National Highway Traffic Safety Administration(NHTSA) has a 5-Star Safety Ratings system to evaluate how well vehicles 
+perform in crash tests.  These tests to help consumers make smart decisions about safety when purchasing a vehicle. **The NHTSA conducts frontal, side pole, side barrier, and rollover tests because they account for the majority of crashes on America’s roadways.**
+
+#### Metrics to Test
+Metrics to test would include obtaining the **5-Star Safety Ratings** on MechaCar and it's competitors.
+
+#### Hypothesis Testing
+Null Hypothesis: H<sub>0</sub> = There is no difference in NHTSA 5-Star Safety Rating between MechaCar and it's competitors
+Alternate Hypothesis: H<sub>a</sub> = There is a difference in NHTSA 5-Star Safety Rating between MechaCar and it's competitors
+
+#### Statistical Test to Test the Hypothesis
 
 
-
-## Summary
-
-
+#### Data to Run the Statistical Test
