@@ -28,6 +28,7 @@ For success in this special project, Jeremy and his data analytics team is taske
 * RStudio
 
 ## Results
+### Linear Regression to Predict MPG
 
 
 ## Summary
