@@ -29,6 +29,34 @@ For success in this special project, Jeremy and his data analytics team is taske
 
 ## Results
 ### Linear Regression to Predict MPG
+The mech_car_mpg.csv dataset was used to to create linear regression to predict MPG.  The dataset includes the following six variables:
+* vehicle_length
+* vehicle_weight
+* spoiler_angle
+* ground_clearance
+* AWD
+* mpg
+
+The *mecha_car_mpg* dataframe was created from the *mech_car_mpg.csv* dataset.  Here is an image of head(mecha_car_mpg):
+![mecha_car_mpg_df_head](https://user-images.githubusercontent.com/94148420/161386435-e3c5d52d-5d11-4c2e-87c7-82142e6dbc33.PNG)
+
+Next, performing a linear regression using lm() was completed.
+![lm_mpg](https://user-images.githubusercontent.com/94148420/161386692-3d0d8b0b-5bcd-4e76-9b93-c0f235b4fb87.PNG)
+
+With the summary() function being applied to determine the p-value and r-squared value for the linear regression model.
+![summary_lm](https://user-images.githubusercontent.com/94148420/161386800-bf90a92a-f1bc-4e4e-9b7d-364d00847dcf.PNG)
+
+The following further dives into a deeper understanding of the data.
+
+### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+
+### Is the slope of the linear model considered to be zero? Why or why not?
+
+
+### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+
 
 
 ## Summary
