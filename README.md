@@ -81,7 +81,11 @@ Then the lot_summary dataframe was created using the group_by() and the summariz
 ![lot_summary](https://user-images.githubusercontent.com/94148420/161399497-49a3d1dd-6931-4c15-8808-270106aa3fa7.PNG)
 
 #### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+When considering all three manufacturing lots, the total **overall Var_PSI = 62.29356**, which *is within the design specifications of not exceeding 100 pounds per square inch*.  Further analysis shows that Lot 1 and Lot 2 are well within this specification:
+* Lot 1 Var_PSI = 0.9795918
+* Lot 2 Var_PSI = 7.4693878
 
+But Lot 3 **far exceeds** the design specification with **Var_PSI = 170.2861224**.  This would be considered a "good catch".
 
 
 
