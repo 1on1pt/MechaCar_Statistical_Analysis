@@ -2,10 +2,6 @@
 Using R and RStudio to create statistics and hypothesis testing to analyze a series of datasets from the automotive industry. The analysis will include visualizations, statistical tests, and interpretation of the results. All of your statistical analysis and visualizations will be written in the R programming language.
 
 ## Overview of the Analysis
-![Moving-Assembly-Line-3](https://user-images.githubusercontent.com/94148420/161385329-d47d4076-fa39-4e36-99fa-a387bd92fefb.jpg)
-
-![assembly_line](https://user-images.githubusercontent.com/94148420/161385422-11481d4a-2006-4dd6-8c37-1d57b714e8b8.jpg)
-
 ![Robots-Auto-Assembly-Plant](https://user-images.githubusercontent.com/94148420/161385529-6336209c-c61f-4472-a030-892ee2134340.jpg)
 
 
