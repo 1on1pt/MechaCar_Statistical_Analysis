@@ -64,7 +64,16 @@ The slope of this linear model cannot be considered to be zero because the p-val
 This linear model does predict the mpg of MechCar prototype fairly effectively as shown by the multiple r-squared value of 0.7149.  This value indicates that the predictive model is approximately accurate 71% in predicting mpg values.  Although a higher multiple r-squared value is better, 71% is not too bad.
 
 ### Summary Statistics on Suspension Coils
+The mecha_car_coil dataframe was created from the Suspension_coil.csv dataset. Here is an image of head(mecha_car_coil):
+![mecha_car_coil_df_head](https://user-images.githubusercontent.com/94148420/161399260-a7841714-aa57-45b3-bb9c-3d5e20665f31.PNG)
 
+The total_summary dataframe was created using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.  Here is the resulting table:
+ ![total_summary](https://user-images.githubusercontent.com/94148420/161399402-36554ef2-481a-45cb-964d-07abc5c4c55c.PNG)
+
+Then the lot_summary dataframe was created using the group_by() and the summarize() functions to group each **manufacturing lot** by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.  This is the table:
+![lot_summary](https://user-images.githubusercontent.com/94148420/161399497-49a3d1dd-6931-4c15-8808-270106aa3fa7.PNG)
+
+#### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 
 
