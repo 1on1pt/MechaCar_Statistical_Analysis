@@ -58,7 +58,7 @@ Therefore, vehicle_length and ground_clearance have a significant impact on the 
 It is also noted that the **intercept is statistically significant at 5.08x10<sup>-08</sup>**.  When an intercept is statistically significant, the intercept term explains a significant amount of variability in the dependent variable when all independent vairables are equal to zero and may mean that there are other variables that can help explain the variability of our dependent variable that have not been included in our model. 
 
 #### Is the slope of the linear model considered to be zero? Why or why not?
-The slope of this linear model cannot be considered to be zero because the p-value = 5.35e-11.  This value is below the assumed level of significance of 0.05% and therefore the null hypothesis can be rejected and providing more evidence that the relationship between the variables and mpg is due to more than random chance.
+The slope of this linear model cannot be considered to be zero because the p-value = 5.35x10<sup>-11</sup>.  This value is below the assumed level of significance of 0.05% and therefore the null hypothesis can be rejected and providing more evidence that the relationship between the variables and mpg is due to more than random chance.
 
 #### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 This linear model does predict the mpg of MechCar prototype fairly effectively as shown by the multiple r-squared value of 0.7149.  This value indicates that the predictive model is approximately accurate 71% in predicting mpg values.  Although a higher multiple r-squared value is better, 71% is not too bad.
