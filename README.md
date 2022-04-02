@@ -49,7 +49,8 @@ The summary() function is applied to determine the p-value and r-squared value f
 The following further dives into a deeper understanding of the data.
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-
+Based on the summary output (Pr(>|t|)), there are two variables/coefficients that provide a non-random amount of variance to the mpg values:
+1. vehicle_length, p-value = 2.6x10^-12 
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
 
