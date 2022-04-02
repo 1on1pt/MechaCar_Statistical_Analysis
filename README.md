@@ -28,6 +28,45 @@ For success in this special project, Jeremy and his data analytics team is taske
 * RStudio
 
 ## Results
+### Linear Regression to Predict MPG
+The mech_car_mpg.csv dataset was used to to create linear regression to predict MPG.  The dataset includes the following six variables:
+* vehicle_length
+* vehicle_weight
+* spoiler_angle
+* ground_clearance
+* AWD
+* mpg
+
+The *mecha_car_mpg* dataframe was created from the *mech_car_mpg.csv* dataset.  Here is an image of head(mecha_car_mpg):
+![mecha_car_mpg_df_head](https://user-images.githubusercontent.com/94148420/161386435-e3c5d52d-5d11-4c2e-87c7-82142e6dbc33.PNG)
+
+Next, performing a linear regression using the lm() function was completed.
+![lm_mpg](https://user-images.githubusercontent.com/94148420/161386692-3d0d8b0b-5bcd-4e76-9b93-c0f235b4fb87.PNG)
+
+The summary() function is applied to determine the p-value and r-squared value for the linear regression model.
+![summary_lm](https://user-images.githubusercontent.com/94148420/161386800-bf90a92a-f1bc-4e4e-9b7d-364d00847dcf.PNG)
+
+The following further dives into a deeper understanding of the data.
+
+#### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Based on the summary output (Pr(>|t|)), there are two variables/coefficients that provide a non-random amount of variance to the mpg values:
+1. vehicle_length, p-value = 2.60x10<sup>-12</sup>
+2. ground_clearance, p-value = 5.21x10<sup>-08</sup>
+
+Therefore, vehicle_length and ground_clearance have a significant impact on the mpg values.
+
+It is also noted that the **intercept is statistically significant at 5.08x10<sup>-08</sup>**.  When an intercept is statistically significant, the intercept term explains a significant amount of variability in the dependent variable when all independent vairables are equal to zero and may mean that there are other variables that can help explain the variability of our dependent variable that have not been included in our model. 
+
+#### Is the slope of the linear model considered to be zero? Why or why not?
+The slope of this linear model cannot be considered to be zero because the p-value = 5.35x10<sup>-11</sup>.  This value is below the assumed level of significance of 0.05% and therefore the null hypothesis can be rejected and providing more evidence that the relationship between the variables and mpg is due to more than random chance.
+
+#### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+This linear model does predict the mpg of MechCar prototype fairly effectively as shown by the multiple r-squared value of 0.7149.  This value indicates that the predictive model is approximately accurate 71% in predicting mpg values.  Although a higher multiple r-squared value is better, 71% is not too bad.
+
+### Summary Statistics on Suspension Coils
+
+
+
 
 
 ## Summary
