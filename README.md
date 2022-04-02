@@ -133,7 +133,7 @@ Alternate Hypothesis: H<sub>a</sub> = There is a difference in NHTSA 5-Star Safe
 
 The two-sample t-test could be used for the overall 5-Star Safety Rating comparison.
 
-The multiple linear regression could be used to evaluate and compare the individual test types (frontal, side pole, side barrier, and rollover tests).
+The multiple linear regression could be used to evaluate and compare the overall 5-Star Rating and individual test types (frontal, side pole, side barrier, and rollover tests).
 
 #### Data to Run the Statistical Test
 
