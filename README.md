@@ -38,12 +38,15 @@ The mech_car_mpg.csv dataset was used to to create linear regression to predict 
 * mpg
 
 The *mecha_car_mpg* dataframe was created from the *mech_car_mpg.csv* dataset.  Here is an image of head(mecha_car_mpg):
+
 ![mecha_car_mpg_df_head](https://user-images.githubusercontent.com/94148420/161386435-e3c5d52d-5d11-4c2e-87c7-82142e6dbc33.PNG)
 
 Next, performing a linear regression using the lm() function was completed.
+
 ![lm_mpg](https://user-images.githubusercontent.com/94148420/161386692-3d0d8b0b-5bcd-4e76-9b93-c0f235b4fb87.PNG)
 
 The summary() function is applied to determine the p-value and r-squared value for the linear regression model.
+
 ![summary_lm](https://user-images.githubusercontent.com/94148420/161386800-bf90a92a-f1bc-4e4e-9b7d-364d00847dcf.PNG)
 
 The following further dives into a deeper understanding of the data.
@@ -65,6 +68,7 @@ This linear model does predict the mpg of MechCar prototype fairly effectively a
 
 ### Summary Statistics on Suspension Coils
 The mecha_car_coil dataframe was created from the Suspension_coil.csv dataset. Here is an image of head(mecha_car_coil):
+
 ![mecha_car_coil_df_head](https://user-images.githubusercontent.com/94148420/161399260-a7841714-aa57-45b3-bb9c-3d5e20665f31.PNG)
 
 The total_summary dataframe was created using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.  Here is the resulting table:
@@ -73,6 +77,7 @@ The total_summary dataframe was created using the summarize() function to get th
 
 
 Then the lot_summary dataframe was created using the group_by() and the summarize() functions to group each **manufacturing lot** by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.  This is the table:
+
 ![lot_summary](https://user-images.githubusercontent.com/94148420/161399497-49a3d1dd-6931-4c15-8808-270106aa3fa7.PNG)
 
 #### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
