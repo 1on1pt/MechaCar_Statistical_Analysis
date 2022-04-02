@@ -50,12 +50,12 @@ The following further dives into a deeper understanding of the data.
 
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Based on the summary output (Pr(>|t|)), there are two variables/coefficients that provide a non-random amount of variance to the mpg values:
-1. vehicle_length, p-value = 2.60ex10<sup>-12</sup>
-2. ground_clearance, p-value = 5.21e-08
+1. vehicle_length, p-value = 2.60x10<sup>-12</sup>
+2. ground_clearance, p-value = 5.21x10<sup>-08</sup>
 
 Therefore, vehicle_length and ground_clearance have a significant impact on the mpg values.
 
-It is also noted that the **intercept is statistically significant at 5.08e-08**.  When an intercept is statistically significant, the intercept term explains a significant amount of variability in the dependent variable when all independent vairables are equal to zero and may mean that there are other variables that can help explain the variability of our dependent variable that have not been included in our model. 
+It is also noted that the **intercept is statistically significant at 5.08x10<sup>-08</sup>**.  When an intercept is statistically significant, the intercept term explains a significant amount of variability in the dependent variable when all independent vairables are equal to zero and may mean that there are other variables that can help explain the variability of our dependent variable that have not been included in our model. 
 
 #### Is the slope of the linear model considered to be zero? Why or why not?
 The slope of this linear model cannot be considered to be zero because the p-value = 5.35e-11.  This value is below the assumed level of significance of 0.05% and therefore the null hypothesis can be rejected and providing more evidence that the relationship between the variables and mpg is due to more than random chance.
