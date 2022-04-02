@@ -68,7 +68,7 @@ The mecha_car_coil dataframe was created from the Suspension_coil.csv dataset. H
 ![mecha_car_coil_df_head](https://user-images.githubusercontent.com/94148420/161399260-a7841714-aa57-45b3-bb9c-3d5e20665f31.PNG)
 
 The total_summary dataframe was created using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.  Here is the resulting table:
- ![total_summary](https://user-images.githubusercontent.com/94148420/161399402-36554ef2-481a-45cb-964d-07abc5c4c55c.PNG)
+![total_summary](https://user-images.githubusercontent.com/94148420/161399402-36554ef2-481a-45cb-964d-07abc5c4c55c.PNG)
 
 Then the lot_summary dataframe was created using the group_by() and the summarize() functions to group each **manufacturing lot** by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.  This is the table:
 ![lot_summary](https://user-images.githubusercontent.com/94148420/161399497-49a3d1dd-6931-4c15-8808-270106aa3fa7.PNG)
