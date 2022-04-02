@@ -85,7 +85,13 @@ When considering all three manufacturing lots, the total **overall Var_PSI = 62.
 * Lot 1 Var_PSI = 0.9795918
 * Lot 2 Var_PSI = 7.4693878
 
-But Lot 3 **far exceeds** the design specification with **Var_PSI = 170.2861224**.  This would be considered a "good catch".
+But Lot 3 **far exceeds** the design specification with **Var_PSI = 170.2861224**.  This would be considered a "good catch" and further analysis of Lot 3 would be indicated.
+
+### T-Tests on Suspension Coils
+#### T-Test Results Across all Manufacturing Lots
+
+![t_test_all_lots](https://user-images.githubusercontent.com/94148420/161400926-1b41e0cd-c9bc-48e5-95d5-6c2a126c72af.PNG)
+
 
 
 
