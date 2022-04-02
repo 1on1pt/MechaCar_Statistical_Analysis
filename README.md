@@ -129,7 +129,7 @@ Null Hypothesis: H<sub>0</sub> = There is no difference in NHTSA 5-Star Safety R
 
 Alternate Hypothesis: H<sub>a</sub> = There is a difference in NHTSA 5-Star Safety Rating between MechaCar and it's competitors
 
-Additional hypotheses can be developed to address testing of the individual test types.
+Additional hypotheses can be developed to address individual test type data.
 
 #### Statistical Test to Test the Hypothesis
 
