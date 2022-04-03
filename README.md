@@ -122,7 +122,7 @@ The US Department of Transportation National Highway Traffic Safety Administrati
 perform in crash tests.  These tests to help consumers make smart decisions about safety when purchasing a vehicle. **The NHTSA conducts frontal, side pole, side barrier, and rollover tests because they account for the majority of crashes on America’s roadways.**
 
 #### Metrics to Test
-Metrics to test would include obtaining the overall **5-Star Safety Ratings** on MechaCar and it's competitors.  Additional metrics would include individual data on *frontal, side pole, side barrier, and rollover tests*.
+Metrics to test would include obtaining the overall **5-Star Safety Ratings** results on MechaCar and it's competitors.  Additional metrics would include individual results on *frontal, side pole, side barrier, and rollover tests*.
 
 #### Hypothesis Testing
 Null Hypothesis: H<sub>0</sub> = There is no difference in NHTSA 5-Star Safety Rating between MechaCar and it's competitors
